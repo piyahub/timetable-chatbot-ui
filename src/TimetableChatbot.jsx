@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_BASE = "http://localhost:8000";
+// const API_BASE = "http://localhost:8000";
+const API_BASE = "https://timetable-backend-nochromadb.onrender.com";
 
 const QUICK_QUERIES = [
   "When is Rawel Singh free on Monday?",
